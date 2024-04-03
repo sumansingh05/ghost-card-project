@@ -1,0 +1,44 @@
+.card   {
+    height: 400px;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    overflow: hidden;
+    /* display: flex; */
+}
+#card1{    
+    rotate:-15deg;
+    z-index: 1;
+}
+#card1:hover{    
+    z-index: 10;
+}
+#card2{    
+    rotate: -10deg;
+    z-index: 2;
+}
+#card2:hover{    
+    z-index: 10;
+}
+#card3{    
+    rotate:-5deg;
+    z-index: 3;
+}
+#card3:hover{    
+    z-index: 10;
+}
+#card4{
+    z-index: 4;
+}
+#card4:hover{    
+    z-index: 10;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
